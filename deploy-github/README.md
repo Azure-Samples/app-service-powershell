@@ -4,8 +4,6 @@ This sample script creates a web app in App Service with its related resources, 
 
 If needed, install the Azure PowerShell using the instruction found in the [Azure PowerShell guide](/powershell/azure/), and then run `Connect-AzAccount` to create a connection with Azure. Also, you need a link to GitHub repository that contains the web app code.
 
-code-azurepowershell-interactive[main](../../../powershell_scripts/app-service/deploy-github/deploy-github.ps1?highlight=1-2 "Create a web app and deploy code from GitHub")]
-
 ## Clean up deployment 
 
 After the script sample has been run, the following command can be used to remove the resource group, web app, and all related resources.
